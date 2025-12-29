@@ -18,10 +18,10 @@ export default function Footer() {
                     <div className="footer-col center">
                         <h4>AROUND THE WEB</h4>
                         <div className="social-icons">
-                            <a href="#"><i className="fab fa-facebook-f text-white"></i></a>
-                            <a href="#"><i className="fab fa-twitter text-white"></i></a>
-                            <a href="#"><i className="fab fa-linkedin-in text-white"></i></a>
-                            <a href="#"><i className="fas fa-globe text-white"></i></a>
+                            <a href="https://facebook.com"><i className="fab fa-facebook-f text-white"></i></a>
+                            <a href="https://twitter.com"><i className="fab fa-twitter text-white"></i></a>
+                            <a href="https://linkedin.com"><i className="fab fa-linkedin-in text-white"></i></a>
+                            <a href="https://facebook.com"><i className="fas fa-globe text-white"></i></a>
                         </div>
                     </div>
 
