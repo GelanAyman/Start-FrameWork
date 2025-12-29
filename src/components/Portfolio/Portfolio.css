@@ -1,0 +1,65 @@
+.portfolio-section {
+    padding: 50px 0;
+}
+
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.portfolio-item img {
+    width: 100%;
+    display: block;
+}
+
+.hover-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(26, 188, 156, 0.938);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hover-overlay i {
+    font-size: 6rem;
+    color: #fff;
+    transform: scale(0.8);
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover .hover-overlay {
+    opacity: 1;
+}
+
+.portfolio-item:hover .hover-overlay i {
+    transform: scale(1);
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: #b1d0fbb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    border-radius: 8px;
+}
+
+.modal-content img {
+    max-width: 60vw;
+    max-height: 60vh;
+}

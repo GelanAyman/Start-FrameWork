@@ -1,0 +1,13 @@
+.home {
+    background-color: #1abc9c;
+}
+
+.star {
+    width: 80px;
+    height: 5px;
+    background-color: #FFF;
+}
+
+.light {
+    color: #FFF;
+}

@@ -1,0 +1,40 @@
+.title,
+i {
+    color: #2C3E50;
+}
+
+.line {
+    width: 80px;
+    height: 5px;
+    background-color: #2C3E50;
+}
+
+form {
+    width: 60%;
+    padding-top: 24px;
+}
+
+input {
+    width: 100%;
+    border-width: 0px 0px 2px 0px;
+    border-color: #eee;
+    padding-bottom: 8px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+button {
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+}
+
+button:hover {
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+}
+
+button:focus-visible {
+    box-shadow: none !important;
+}
